@@ -3,7 +3,7 @@
 # Installs HackRF tools. I.E. hackrf_info
 # https://github.com/mossmann/hackrf/wiki/libHackRF-API
 #
-# Run container with the command: docker run -it --privileged --name hackrf -v /dev/bus/usb:/dev/bus/usb barrymarkgee/hackrf
+# Run container with the command: docker run -it --privileged --name hackrf -v /dev/bus/usb:/dev/bus/usb barrymarkgee/rpi-hackrf
 
 FROM armhf/ubuntu
 
